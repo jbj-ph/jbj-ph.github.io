@@ -1,0 +1,51 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+
+# pagination
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate-v2
+  - jekyll-pinboard
+
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: '/page/:num/'
+  title_suffix: ' - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
+  # Produces a cleaner folder structure when using categories
+permalink: /:year/:month/:title.html
+
+pinboard:
+  token: jbj:11A8332EB0D4246592D6
+  tags: salty
+
+# Setup
+title:               The Salt-Box
+tagline:             'More fidgety than expected'
+description:         'The web home of Jason B. Jones, director of Research, Instruction, Technology at Trinity College (Hartford) and co-editor of ProfHacker'
+url:
+baseurl:
+
+
+# Pinboard
+
+
+
+
+# About/contact
+author:
+  name:              Jason B. Jones
+  url:               https://twitter.com/jbj
+  email:             jason.b.jones@gmail.com
+
+# Custom vars
+version:             1.0.0
