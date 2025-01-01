@@ -1,50 +1,13 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
+title: The Salt-Box
+description: More Fidgety Than Expected
+baseurl: "" # Set to "" for user/organization site, "/repo-name" for project site
+url: "https://jbj-ph.github.io"
 
-# pagination
-theme: jekyll-theme-lanyon
+theme: minima
 plugins:
-  - jekyll-feed
-#  - jekyll-sitemap
- # - jekyll-seo-tag
-  # - jekyll-paginate-v2
-  # - jekyll-pinboard
+  - jekyll-paginate
 
-# Pagination Settings
-# pagination:
-  enabled: true
-  per_page: 3
-  permalink: '/page/:num/'
-  title_suffix: ' - page :num'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
-
-  # Produces a cleaner folder structure when using categories
-# permalink: /:year/:month/:title.html
-
-# pinboard:
-  token: jbj:11A8332EB0D4246592D6
-  tags: salty
-
-# Setup
-title:               The Salt-Box
-tagline:             'More fidgety than expected'
-description:         'The web home of Jason B. Jones, director of Research, Instruction, Technology at Trinity College (Hartford) and co-editor of ProfHacker'
-url:
-baseurl:              baseurl: "/<repository-name>"
+paginate: 5
+paginate_path: "/page:num/"
 
 
-# Pinboard
-
-
-
-
-# About/contact
-author:
-  name:              Jason B. Jones
-  email:             jason.b.jones@gmail.com
-
-# Custom vars
-version:             1.0.0
