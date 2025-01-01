@@ -33,7 +33,7 @@ title:               The Salt-Box
 tagline:             'More fidgety than expected'
 description:         'The web home of Jason B. Jones, director of Research, Instruction, Technology at Trinity College (Hartford) and co-editor of ProfHacker'
 url:
-baseurl:
+baseurl:              baseurl: "/<repository-name>"
 
 
 # Pinboard
